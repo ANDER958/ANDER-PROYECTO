@@ -1,7 +1,6 @@
 #importar librerias
 from pathlib import Path
 import pandas as pd
-
 #cargar el dataset
 df = pd.read_csv("Reporte_AVPF1_G1 (1).csv")
 

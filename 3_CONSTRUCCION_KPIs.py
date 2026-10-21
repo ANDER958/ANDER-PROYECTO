@@ -29,7 +29,6 @@ resistencia_maxima = df[columna_resistencia].max()
 resistencia_minima = df[columna_resistencia].min()
 cantidad_registros = len(df)
 edad_promedio = df[columna_edad].mean()
-
 # Mostrar resultados
 print(f"Filas duplicadas eliminadas: {duplicados}")
 print(f"Resistencia promedio: {resistencia_promedio:.2f}")
